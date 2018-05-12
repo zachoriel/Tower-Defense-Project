@@ -29,6 +29,11 @@ public class WaveSpawner : MonoBehaviour
     [HideInInspector]
     public int waveIndex = 0;
 
+    void Start()
+    {
+        EnemiesAlive = 0;
+    }
+
     void Update()
     {
         ea = EnemiesAlive;       // SEE ABOVE

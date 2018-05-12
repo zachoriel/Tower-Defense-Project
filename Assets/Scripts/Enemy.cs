@@ -55,7 +55,7 @@ public class Enemy : MonoBehaviour
 
         if (shield >= startShield)
         {
-            shield = startShield;
+            shield = startShield - amount;
         }
 
         //healthBar.fillAmount = health / startHealth;
